@@ -1,0 +1,27 @@
+1.参考网站：
+桔子树：http://www.juzishu.com.cn/
+卓乐：http://www.zgyyjypx.com/index.html
+中音阶梯艺术教育：http://www.o-oo-ooo.com/
+少儿钢琴乔迪：http://www.twqiaodi.com/
+
+模板参照：
+http://www.youzhan.org/page/86/  腾讯大讲堂
+http://www.youzhan.org/page/85/
+http://www.youzhan.org/page/83/
+http://www.youzhan.org/page/70/
+http://www.youzhan.org/page/67/
+http://www.youzhan.org/page/66/  http://www.howzhi.com/
+http://www.youzhan.org/page/61/  https://www.likeshuo.com/
+http://www.youzhan.org/page/59/ 
+http://www.youzhan.org/page/37/
+http://www.youzhan.org/page/31/ 
+http://www.youzhan.org/page/15/                            https://spark.laravel.com/
+http://www.youzhan.org/page/09/   https://inside.com/tags/technology
+                                  http://www.bootcdn.cn/
+
+卡通风格：
+https://www.crazycall.com/
+http://www.yomail.com/
+
+开发工具：
+http://www.bootcss.com/p/layoutit/
