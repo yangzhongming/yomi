@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+	<title>导航条示例</title>
+	<link rel="stylesheet"  href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<!--
+	<style>
+
+	.carousel slide {
+	    position: relative;
+	    width: 100%;
+	    min-width: 1200px;
+	    margin: 0 auto;
+
+	</style>
+		}-->
+	<!--去除Bootstrap两端阴影-->
+	<style type="text/css">
+		.carousel-control.left {
+   
+		  background-image:none;
+		  background-repeat: repeat-x;
+		  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+		}
+		.carousel-control.right {
+		  left: auto;
+		  right: 0;
+  
+		  background-image:none;
+		  background-repeat: repeat-x;
+		  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+	</style>
+</head>
+<body>
+
+<div class="container-fluid">
+	<h1 class="page-header">优米钢琴教育</h1>
+	<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<a href="" class="navbar-brand"><img src="img/logo.png" height="100%"></a>
+			<!--可改为网站logo-->
+			<!--<a href="" class="navbar-brand"><img src="img/logo.png" height="" ="100%">-->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<div id="mynavbar" class="collapse navbar-collapse">
+    	<ul class="nav navbar-nav">
+			<li><a href="index.html" class="active">首页</a></li>
+			<li><a href="pianoExam.html">钢琴课程</a></li>
+			<li><a href="">音基考试</a></li>
+			<li class="dropdown">
+				<a href="" class="dropdown-toggle" data-toggle="dropdown">
+					<span>联系方式 <span class="caret"></span></span>		
+
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="">微信</a></li>
+					<li><a href="">QQ </a></li>
+				</ul>
+			</li>
+    	</ul>
+
+    	<ul class="nav navbar-nav navbar-right">
+			<li><a href="">登录</a></li>
+    	</ul>
+        </div>
+	</nav>
+     
+    <!--轮播图 start-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	  		<div class="item active">
+	      	<img src="img/轮播图1.jpg" alt=" " >
+	      	<div class="carousel-caption">
+	      		<h4>
+				 棒球
+		 		</h4>
+		  		<p>
+		  			棒球运动是一种以棒打球为主要特点，集体性、对抗性很强的球类运动项目，在美国、日本尤为盛行。
+		  		</p>
+	     	 </div>
+	    	</div>
+	    	<div class="item">
+	        <img src="img/轮播图2-1.jpg" alt=" ">
+       	    <div class="carousel-caption">
+				<h4>
+					冲浪
+				</h4>
+				<p>
+					冲浪是以海浪为动力，利用自身的高超技巧和平衡能力，搏击海浪的一项运动。运动员站立在冲浪板上，或利用腹板、跪板、充气的橡皮垫、划艇、皮艇等驾驭海浪的一项水上运动。
+				</p>
+         	</div>
+           </div>
+           	<div class="item">
+	        <img src="img/轮播图3.jpg" alt=" ">
+       	    <div class="carousel-caption">
+				<h4>
+					冲浪
+				</h4>
+				<p>
+					冲浪是以海浪为动力，利用自身的高超技巧和平衡能力，搏击海浪的一项运动。运动员站立在冲浪板上，或利用腹板、跪板、充气的橡皮垫、划艇、皮艇等驾驭海浪的一项水上运动。
+				</p>
+         	</div>
+           </div>
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+   </div>
+    <!--轮播图 end-->
+    <h2 class="text-center">钢琴课程</h2>
+
+    <!--缩率图 start-->
+    <!--
+	<div class="row">
+		<div class="col-md-4">
+			<img src="img/轮播图3.jpg" alt=" ">
+		</div>
+		<div class="col-md-8"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="img/轮播图3.jpg" alt=" ">
+		</div>
+		<div class="col-md-8"></div>
+	</div>
+     -->
+    <div class="row" >
+    	<div class="col-md-4">
+    			<img src="img/tearcher.jpg" alt="Bootstrap Image Preview"  class="img-responsive center-block" />
+				
+		</div>
+		<div class="col-md-8">
+			<h2 class="text-center">
+					教师介绍
+				</h2>
+				<p>
+				<ul>
+				  <h5><li>5岁开始学习钢琴，2004年毕业南京艺术学院音乐学院，主修通俗钢琴，声乐专业，曾多次获得优秀学生奖学金</li></h5>
+				   <h5><li>专业从事钢琴教学10年，曾经就职北京多家知名艺术培训机构培训机构从事儿童、成人钢琴、声乐教学工作</li></h5>
+				   <h5><li>已获得高级中学音乐教师资格证，音基考试认证，对音基考级有独特的教学经验</li></h5>
+				   <h5><li>多年的儿童钢琴教育经验，对儿童钢琴的培养有丰富的经验</li></h5>
+				</ul>
+				</p>
+				<p>
+					<a class="btn" href="#">联系我吧 »</a>
+			    </p>
+		</div>
+    </div>
+    <br>
+    <div class="row" >
+    	<div class="col-md-4">
+    			<img src="img/tearcher.jpg" alt="Bootstrap Image Preview"  class="img-responsive center-block" />
+				
+		</div>
+		<div class="col-md-8">
+			<h2 class="text-center">
+					教师介绍
+				</h2>
+				<p>
+				<ul>
+				  <h5><li>5岁开始学习钢琴，2004年毕业南京艺术学院音乐学院，主修通俗钢琴，声乐专业，曾多次获得优秀学生奖学金</li></h5>
+				   <h5><li>专业从事钢琴教学10年，曾经就职北京多家知名艺术培训机构培训机构从事儿童、成人钢琴、声乐教学工作</li></h5>
+				   <h5><li>已获得高级中学音乐教师资格证，音基考试认证，对音基考级有独特的教学经验</li></h5>
+				   <h5><li>多年的儿童钢琴教育经验，对儿童钢琴的培养有丰富的经验</li></h5>
+				</ul>
+				</p>
+				<p>
+					<a class="btn" href="#">联系我吧 »</a>
+			    </p>
+		</div>
+    </div>
+    <!--缩率图 end-->
+    <!--横线分割 start-->
+    <h1 class="page-header"></h1>
+    <!--横线分割 end-->
+    
+</div>
+</body>
+</html>
